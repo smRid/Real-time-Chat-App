@@ -23,7 +23,8 @@ A full-stack **Realtime Chat Application** built with the **MERN stack** (MongoD
 - 🔔 Instant notifications with react-hot-toast  
 - 🛠️ RESTful API with Express & MongoDB  
 - 🔄 Persistent login using cookies  
-- 🌐 Modern routing with React Router DOM v7  
+- 🌐 Modern routing with React Router DOM v7
+- 🌙 Light/Dark theme support via DaisyUI themes
 
 ---
 
