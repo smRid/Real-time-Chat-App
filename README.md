@@ -7,8 +7,11 @@ A full-stack **Realtime Chat Application** built with the **MERN stack** (MongoD
 
 ## 🔗 Preview
 
----
+![Dashboard Preview](frontend/public/preview1.png) 
+--
 🌍 Live Demo - https://chat-app-rt-w3n8.onrender.com/
+
+---
 
 ## 🚀 Features
 
@@ -58,13 +61,11 @@ A full-stack **Realtime Chat Application** built with the **MERN stack** (MongoD
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/realtime-chat-app.git
-cd realtime-chat-app
+git clone https://github.com/smRid/Real-time-Chat-App.git
 ```
 
 # Setup .env file
 ```bash
-```js
 MONGODB_URI=...
 PORT=5001
 JWT_SECRET=...
@@ -85,12 +86,5 @@ npm run build
 ### Start the app
 
 ```shell
-npm start
+npm run start
 ```
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-NODE_ENV=development
-
