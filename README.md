@@ -30,42 +30,59 @@ A full-stack **Realtime Chat Application** built with the **MERN stack** (MongoD
 
 ## 🖥️ Tech Stack
 
-### Frontend
+### 🚀 Frontend
 
-- React.js `v19`
-- Zustand for state management
-- DaisyUI + Tailwind CSS for UI
-- React Router DOM `v7`
-- Axios for API communication
-- Socket.io-client for real-time events
-- Lucide-react for icons
-- React-hot-toast for notifications
+- [React.js v19](https://react.dev/)
+- [Zustand](https://zustand-demo.pmnd.rs/) – State management
+- [DaisyUI](https://daisyui.com/) + [Tailwind CSS](https://tailwindcss.com/) – UI components & styling
+- [React Router DOM v7](https://reactrouter.com/)
+- [Axios](https://axios-http.com/) – API communication
+- [Socket.io-client](https://socket.io/docs/v4/client-api/) – Real-time events
+- [Lucide-react](https://www.npmjs.com/package/lucide-react) – Icon library
+- [React-hot-toast](https://react-hot-toast.com/) – Notifications
 
-### Backend
+### 🛠 Backend
 
-- Node.js & Express.js `v5`
-- MongoDB with Mongoose
-- Socket.io `v4.8.1`
-- JWT for authentication
-- Bcrypt.js for password hashing
-- Cloudinary for media uploads
-- Cookie-parser for session handling
-- CORS and dotenv for configuration
+- [Node.js](https://nodejs.org/) & [Express.js v5](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
+- [Socket.io v4.8.1](https://socket.io/docs/v4/)
+- [JWT](https://jwt.io/) – Authentication
+- [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) – Password hashing
+- [Cloudinary](https://cloudinary.com/) – Media uploads
+- [Cookie-parser](https://www.npmjs.com/package/cookie-parser) – Session handling
+- [CORS](https://www.npmjs.com/package/cors) & [dotenv](https://www.npmjs.com/package/dotenv) – Configuration
 
 ---
 
 
 
 
-## ⚙️ Installation
 
-###  Clone the Repository
+## <a name="getting-started">🚀 Getting Started</a>
+
+To get started follow these steps:
+
+#### Cloning the Repository
+
+Using CLI
 
 ```bash
 git clone https://github.com/smRid/Real-time-Chat-App.git
 ```
 
-# Setup .env file
+**\*\*_Ensure you have installed [Git](https://git-scm.com) on your machine._**
+
+or using GitHub:
+
+-   Go to the project [repository](https://github.com/smRid/Real-time-Chat-App) on my GitHub page
+-   Click on the green button on the top 👆
+-   Click Download ZIP
+
+
+### ⚙️ Installation
+
+
+## Setup .env file
 ```bash
 MONGODB_URI=...
 PORT=5001
@@ -78,14 +95,20 @@ CLOUDINARY_API_SECRET=...
 NODE_ENV=development
 ```
 
+Install the project dependencies using npm:
+
 ### Build the app
 
-```shell
+```bash
 npm run build
 ```
 
+**\*\*_Ensure you have installed [NodeJS](https://nodejs.org/en) on your machine._**
+
 ### Start the app
 
-```shell
+```bash
 npm run start
 ```
+
+**\*\*_Navigate to http://localhost:5001 in your browser to access the local development server._**
