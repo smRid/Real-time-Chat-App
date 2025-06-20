@@ -9,7 +9,7 @@ A full-stack **Realtime Chat Application** built with the **MERN stack** (MongoD
 
 ![Dashboard Preview](frontend/public/preview1.png) 
 --
-🌍 Live Demo - https://chat-app-rt-4jo9.onrender.com
+🌍 Live Demo - https://chat-app-smr.onrender.com/
 
 ---
 
